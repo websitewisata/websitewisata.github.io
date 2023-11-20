@@ -1,0 +1,69 @@
+
+@font-face {
+	font-family: 'antipaso';
+	src: url(antipasto/AntipastoPro-Thin_trial\ 2.ttf);
+}
+.fa {
+  width: 1.5vw;
+  height: 1.5vw;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 1vw;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10vw 10vw 4vw 10vw;
+  text-align: center;
+  font-family: 'antipaso', Times, serif;
+  font-size: 1.5vw;
+  color: white;
+  letter-spacing: 0.3vw;
+}
+
+.fontangka{
+  font-family: 'Courier New', Courier, monospace;
+}
+.collumn2.side2{
+	width: calc(100vw/3);
+	color: rgb(255, 255, 255);
+	font-family: "antipasobld";
+	letter-spacing: 0.3vh;
+	text-align: center;
+}
+.collumn2.middle2{
+	width: calc(100vw/3);
+	color: rgb(255, 255, 255);
+	font-family: "antipasobld";
+	letter-spacing: 0.3vh;
+	text-align: center;
+}
+.isifooter{
+  font-size: 1vw;
+}
+.font2{
+  font-family: 'Courier New', Courier, monospace;
+}

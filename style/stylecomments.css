@@ -1,0 +1,108 @@
+.comments {
+    max-width: 100vw;
+    max-height: 50vh;
+    margin: 0;
+    padding: 2vw;
+    background-color: white;
+    overflow: hidden;
+}
+#comments {
+    position: relative;
+    height: 40vw;
+    overflow: hidden;
+}
+#comments div {
+    position: absolute;
+    transition: transform 400ms, left 400ms, opacity 400ms, z-index 0s;
+    opacity: 1;
+}
+#comments div img {
+    width: 30vw;
+    transition: width 400ms;
+    -webkit-user-drag: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 20px;
+}
+#comments div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(50%) translateX(-50%);
+}
+
+#comments div.prev {
+    z-index: 5;
+    left: 22%;
+    transform: translateY(50px) translateX(-40%);
+}
+
+#comments div.prev img {
+    width: 20vw;
+    mask-image: linear-gradient(to right, transparent, black 80%, black 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 80%, black 100%);
+}
+
+#comments div.gambarkiri2 img {
+    width: 0px;
+}
+#comments div.active {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%);
+}
+#comments div.next {
+    z-index: 5;
+    left: 78%;
+    transform: translateY(50px) translateX(-60%);
+}
+#comments div.next img {
+    width: 20vw;
+    mask-image: linear-gradient(to left, transparent, black 80%, black 100%);
+    -webkit-mask-image: linear-gradient(to left, transparent, black 80%, black 100%);
+}
+
+#comments div.gambarkanan2 img {
+    width: 0;
+}
+
+.button3cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button3{  
+    background-color: white;
+    box-shadow: 0.2vh 0.2vh 0.2vh 0.2vh hsla(0, 0%, 0%, 0.1);
+    width: 6vw;
+    height: 6vw;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    padding: 0 !important;
+    margin: 2vw !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.arrow{
+    font-size: 8vw;
+    color: #0000007b;
+    margin: auto !important;
+    text-align: center !important;
+    padding: 0 !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.arrow2{
+    font-size: 4vw;
+    color: #0000007b;
+    margin: auto !important;
+    text-align: center !important;
+    padding: 0 !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
